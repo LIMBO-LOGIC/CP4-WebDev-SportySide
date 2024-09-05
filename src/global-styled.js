@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: "Inter", sans-serif;
     }
 
     :root{
@@ -28,6 +29,16 @@ const GlobalStyle = createGlobalStyle`
         display: flex;
         flex-direction: column;
     }
+
+    ul, 
+    li,
+    ol,
+    a {
+        list-style: none;
+        color: inherit;
+        text-decoration: none;
+    }
+
 
     section{
         flex-grow: 1;
