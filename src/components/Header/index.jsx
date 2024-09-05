@@ -1,10 +1,18 @@
 import { HeaderStyled } from "./Styles";
+import logo from '../../assets/logo.svg'
 
 export default function Header(){
     return(
         <HeaderStyled>
-            <h1>Sportsy Side</h1>
-            <h2>Um novo jeito de treinar!</h2>
+            <img src={logo} alt="" />
+            <nav>
+                <ul>
+                    <li className="itemMenu">Home</li>
+                    <li className="itemMenu">Cezar</li>
+                    <li className="itemMenu">Produtos</li>
+                    <li className="itemMenu">Contato</li>
+                </ul>
+            </nav>
         </HeaderStyled>
     )
 }
