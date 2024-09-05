@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -42,15 +42,16 @@ const GlobalStyle = createGlobalStyle`
 
     section{
         flex-grow: 1;
+        overflow-x: hidden;
     }
 
-    main{
+     main{
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 100vw;
         flex-grow: 1;
         background-color: cyan;
     }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;
