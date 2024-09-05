@@ -4,7 +4,7 @@ import logo from '../../assets/logo.svg'
 export default function Header(){
     return(
         <HeaderStyled>
-            <img src={logo} alt="" />
+            <img src={logo} alt="Logo da empresa" />
             <nav>
                 <ul>
                     <li className="itemMenu">Home</li>
