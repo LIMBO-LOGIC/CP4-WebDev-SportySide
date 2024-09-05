@@ -3,7 +3,10 @@ import { Container, Image, Text } from './Styles.js';
 const Sobre = () => {
   return (
     <Container>
-      <Image src='https://fiap.com.br/imgs/mba-curso/share/engenharia-de-software.png' alt='Engenharia de Software' />
+      <Image
+        src='https://fiap.com.br/imgs/mba-curso/share/engenharia-de-software.png'
+        alt='Engenharia de Software'
+      />
       <Text>
         O curso de Engenharia de Software tem como objetivo capacitar
         profissionais para o desenvolvimento de soluções tecnológicas, focando
