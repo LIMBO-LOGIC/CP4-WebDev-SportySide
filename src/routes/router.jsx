@@ -1,15 +1,17 @@
-import { createBrowserRouter } from "react-router-dom";
-import RootLayout from "../pages/RootLayout";
-import Home from "../pages/Home";
+import { createBrowserRouter } from 'react-router-dom';
+import RootLayout from '../pages/RootLayout';
+import Home from '../pages/Home';
+import Sobre from '../pages/Sobre';
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <RootLayout />,
-        children: [
-            { index: true, element: <Home /> }
-        ]
-    }
-])
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'sobre', element: <Sobre /> },
+    ],
+  },
+]);
 
-export default router
+export default router;
