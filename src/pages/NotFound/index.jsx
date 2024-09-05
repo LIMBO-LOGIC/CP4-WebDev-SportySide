@@ -1,7 +1,7 @@
 import notFoundImage from './404.png';
 import { Container, Image, Title, Message } from './Styles.js';
 
-const NotFound = () => {
+function NotFound() {
   return (
     <Container>
       <Image src={notFoundImage} alt='404 Not Found' />
@@ -12,6 +12,6 @@ const NotFound = () => {
       </Message>
     </Container>
   );
-};
+}
 
 export default NotFound;

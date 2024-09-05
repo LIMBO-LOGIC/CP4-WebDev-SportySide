@@ -18,7 +18,7 @@ export const Container = styled.section`
 export const Image = styled.img`
   width: 300px;
   height: 300px;
-  border-radius: 50%;
+  border-radius: 20%;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
