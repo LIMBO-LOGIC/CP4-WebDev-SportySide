@@ -50,7 +50,6 @@ const GlobalStyle = createGlobalStyle`
         flex-direction: column;
         width: 100vw;
         flex-grow: 1;
-        background-color: cyan;
     }
 `;
 
