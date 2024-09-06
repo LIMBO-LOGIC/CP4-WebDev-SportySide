@@ -6,14 +6,18 @@ export const BoxProductStyled = styled.div`
   width: 100%;
   gap: 12px;
 
-  p{
+  p {
     font-size: 2rem;
     font-weight: 600;
   }
 
-  .listProduct {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+  .swiper-button-next {
+    color: var(--bg-color);
   }
+
+  .swiper-button-prev {
+    color: var(--bg-color);
+  }
+
+  
 `;

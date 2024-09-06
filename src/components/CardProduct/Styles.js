@@ -26,11 +26,11 @@ export const CardProductStyled = styled.div`
     transition: all 0.5s;
   }
 
-  img{
-    transition: all .5s;
+  img {
+    transition: all 0.5s;
   }
 
-  img:hover{
+  img:hover {
     scale: 1.02;
   }
 
@@ -67,5 +67,28 @@ export const CardProductStyled = styled.div`
   .prices p {
     font-size: 1rem;
     font-weight: 500;
+  }
+
+  @media (max-width: 800px) {
+    width: auto;
+    max-width: 150px;
+    height: 300px;
+    padding: 16px 12px;
+
+    .prices p {
+      font-size: 0.875rem;
+    }
+
+    .prices span {
+      font-size: 0.750rem;
+    }
+
+    button {
+      padding: 4px 12px;
+    }
+
+    .nameProduct {
+      font-size: 0.9rem;
+    }
   }
 `;

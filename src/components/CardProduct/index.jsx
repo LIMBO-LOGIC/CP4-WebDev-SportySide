@@ -22,8 +22,8 @@ export default function CardProduct({ product }) {
       <img src={product.imagem} alt={`Imagem do produto ${product.nome}`} />
       <p className="nameProduct">{product.nome}</p>
       <div className="prices">
-        <span>R$ {formatPrice(product.precoDesconto)}</span>
-        <p>R$ {formatPrice(product.precoOriginal)}</p>
+        <span>R$ {formatPrice(product.precoOriginal)}</span>
+        <p>R$ {formatPrice(product.precoDesconto)}</p>
       </div>
       <button onClick={(e) => e.preventDefault()}>Comprar</button>
     </CardProductStyled>
