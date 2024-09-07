@@ -25,7 +25,7 @@ export default function BoxProducts({ listProducts, category }) {
 
   return (
     <BoxProductStyled>
-      <p>{category}</p>
+      <p className="titleCategory">{category}</p>
       <div className="listProduct">
         <Swiper
           // slidesPerView={isMobileBig ? 1 : 6}

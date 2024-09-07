@@ -7,7 +7,7 @@ export const BoxProductStyled = styled.div`
   gap: 24px;
   padding: 12px 60px;
 
-  p {
+  .titleCategory {
     padding-left: 54px;
     font-size: 2.5rem;
     font-weight: 600;
