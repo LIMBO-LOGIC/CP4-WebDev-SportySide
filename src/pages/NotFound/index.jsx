@@ -1,4 +1,4 @@
-import notFoundImage from './404.png';
+import notFoundImage from './404.svg';
 import { Container, Image, Title, Message } from './Styles.js';
 
 function NotFound() {

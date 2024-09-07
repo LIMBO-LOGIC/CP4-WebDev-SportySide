@@ -22,6 +22,23 @@ const GlobalStyle = createGlobalStyle`
         --white-default: #fff;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--text-green-color);
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: var(--bg-color);
+    }
+
     body,
     #root{
         width: 100vw;

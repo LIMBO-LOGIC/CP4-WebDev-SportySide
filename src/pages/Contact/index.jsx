@@ -5,46 +5,56 @@ import {
   Heading,
   Input,
   Label,
-  LeftLogin,
-  MainLogin,
-  RightLogin,
+  LeftContact,
+  MainContact,
+  RightContact,
   Textfield,
 } from "./Styles";
+import imageSvg from '../../assets/contact.svg'
 
 const Contact = () => {
   return (
-    <MainLogin>
-      <LeftLogin>
+    <MainContact>
+      <LeftContact>
         <Heading>
-          Faça login <br />E jogue nosso quiz
+          Entre em contato <br />conosco
         </Heading>
-        <img src="" alt="Animação" />
-      </LeftLogin>
-      <RightLogin>
+        <img src={imageSvg} alt="Animação" />
+      </LeftContact>
+      <RightContact>
         <CardUsuario>
           <CardHeading>Contato</CardHeading>
           <Textfield>
-            <Label htmlFor="usuario">Usuário</Label>
+            <Label htmlFor="nomeUsuario">Seu nome</Label>
             <Input
               type="text"
-              name="usuario"
-              placeholder="Usuário"
-              id="usuario"
+              name="nomeUsuario"
+              placeholder="Nome"
+              id="nomeUsuario"
             />
           </Textfield>
           <Textfield>
-            <Label htmlFor="senha">Senha</Label>
+            <Label htmlFor="email">Seu email</Label>
             <Input
               type="password"
-              name="senha"
-              placeholder="Senha"
-              id="senha"
+              name="email"
+              placeholder="E-mail"
+              id="email"
             />
           </Textfield>
-          <Button onClick={""}>Login</Button>
+          <Textfield>
+            <Label htmlFor="telefone">Seu telefone</Label>
+            <Input
+              type="password"
+              name="telefone"
+              placeholder="Telefone"
+              id="telefone"
+            />
+          </Textfield>
+          <Button onClick={""}>Enviar</Button>
         </CardUsuario>
-      </RightLogin>
-    </MainLogin>
+      </RightContact>
+    </MainContact>
   );
 };
 export default Contact;

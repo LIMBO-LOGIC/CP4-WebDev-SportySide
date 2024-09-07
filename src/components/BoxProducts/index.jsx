@@ -27,10 +27,6 @@ export default function BoxProducts({ listProducts, category }) {
     <BoxProductStyled>
       <p>{category}</p>
       <div className="listProduct">
-        {/* {listProducts.map((product, index) => (
-          <CardProduct key={index} product={product} />
-        ))} */}
-
         <Swiper
           // slidesPerView={isMobileBig ? 1 : 6}
           navigation={true}

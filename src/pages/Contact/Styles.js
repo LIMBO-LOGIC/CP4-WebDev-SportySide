@@ -1,41 +1,46 @@
 import styled from "styled-components";
 
 
-export const MainLogin = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(37, 37, 37);
+export const MainContact = styled.section`
   display: flex;
-  align-items: center;
+  align-items: stretch; /* Garantir que os itens internos ocupem a altura total */
   justify-content: center;
+  width: 100vw;
+  min-height: 100%; /* Definindo a altura mínima para 100% do container */
+  background-color: rgb(37, 37, 37);
 `;
 
-export const LeftLogin = styled.div`
-  background-color: antiquewhite;
-  width: 50vw;
-  height: 100vh;
+export const LeftContact = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  width: 50vw;
+  gap: 20px;
+  background-color: var(--text-green-color);
+  flex-grow: 1; /* Expande o LeftContact para ocupar o máximo de espaço vertical */
+
+  img{
+    height: 40vh;
+  }
 `;
 
 export const Heading = styled.h1`
   font-size: 3vw;
-  color: rgb(0, 126, 165);
+  color: var(--bg-color);
 `;
 
 // export const Image = styled.img`
 //   width: 35vw;
 // `;
 
-export const RightLogin = styled.div`
+export const RightContact = styled.div`
   width: 50vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-grow: 1;
 `;
 
 export const CardUsuario = styled.div`
@@ -51,12 +56,11 @@ export const CardUsuario = styled.div`
 `;
 
 export const CardHeading = styled.h2`
-  color: rgb(0, 126, 165);
+  color: var(--text-green-color);
   font-weight: bold;
   margin: 0;
   text-align: center;
   font-size: 50px;
-  text-transform: uppercase;
 `;
 
 export const Textfield = styled.div`
@@ -71,6 +75,8 @@ export const Textfield = styled.div`
 export const Label = styled.label`
   color: rgb(218, 218, 218);
   margin-bottom: 10px;
+  text-align: start;
+  width: 100%;
 `;
 
 export const Input = styled.input`
@@ -78,7 +84,7 @@ export const Input = styled.input`
   border: none;
   border-radius: 10px;
   padding: 15px;
-  background-color: rgb(0, 126, 165);
+  background-color: var(--green-light-color);
   color: rgb(218, 218, 218);
   box-shadow: 0px 10px 40px #00000056;
   outline: none;
@@ -97,13 +103,14 @@ export const Button = styled.button`
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #ffffff;
-  background-color: rgb(0, 126, 165);
+  background-color: var(--green-light-color);
   cursor: pointer;
   font-weight: 800;
   box-shadow: 0px 10px 40px #00000056;
+  transition: all .5s;
 
   &:hover {
-    background-color: rgb(0, 107, 139);
+    background-color: var(--text-green-color);
     box-shadow: 0px 10px 40px -12px #00879952;
   }
 `;

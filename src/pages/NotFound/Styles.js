@@ -41,7 +41,7 @@ export const Message = styled.p`
   max-width: 600px;
 
   a {
-    color: var(--blue-color);
+    color: var(--green-light-color);
     text-decoration: none;
     font-weight: bold;
 

@@ -34,19 +34,19 @@ export const FooterStyled = styled.footer`
     background-color: var(--green-light-color);
   }
 
-  .socialMedia{
+  .socialMedia {
     display: flex;
     align-items: center;
     gap: 24px;
   }
 
-  .socialMedia svg{
+  .socialMedia svg {
     font-size: 1.5rem;
-    transition: all .5s;
+    transition: all 0.5s;
     color: var(--white-default);
   }
 
-  .socialMedia svg:hover{
+  .socialMedia svg:hover {
     cursor: pointer;
     color: var(--yellow-color);
   }
@@ -74,5 +74,51 @@ export const FooterStyled = styled.footer`
 
   .links a:hover {
     text-decoration: underline;
+  }
+
+  @media (max-width: 1020px) {
+    padding: 24px 48px;
+
+    .links,
+    .copyright p,
+    .itemFooter {
+      font-size: 0.75rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+
+    .copyright {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center  ;
+    }
+
+    nav{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .itemFooter{
+      font-size: 1rem;
+    }
+
+    .links{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .links,
+    .copyright p {
+      font-size: 0.875rem;
+    }
+
+    .navFooter {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;

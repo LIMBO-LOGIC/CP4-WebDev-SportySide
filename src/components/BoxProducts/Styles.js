@@ -8,6 +8,7 @@ export const BoxProductStyled = styled.div`
   padding: 12px 60px;
 
   p {
+    padding-left: 54px;
     font-size: 2.5rem;
     font-weight: 600;
     color: var(--bg-color);
