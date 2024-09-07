@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 export const MainContact = styled.section`
   display: flex;
-  align-items: stretch; /* Garantir que os itens internos ocupem a altura total */
+  align-items: stretch;
   justify-content: center;
   width: 100vw;
-  min-height: 100%; /* Definindo a altura mínima para 100% do container */
+  min-height: 100%; 
   background-color: rgb(37, 37, 37);
 
   @media(max-width: 860px){
@@ -23,7 +23,7 @@ export const LeftContact = styled.div`
   width: 50vw;
   gap: 20px;
   background-color: var(--text-green-color);
-  flex-grow: 1; /* Expande o LeftContact para ocupar o máximo de espaço vertical */
+  flex-grow: 1; 
 
   img{
     height: 40vh;
@@ -38,10 +38,6 @@ export const Heading = styled.h1`
   font-size: 3vw;
   color: var(--bg-color);
 `;
-
-// export const Image = styled.img`
-//   width: 35vw;
-// `;
 
 export const RightContact = styled.div`
   width: 50vw;
