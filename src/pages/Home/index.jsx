@@ -14,6 +14,9 @@ export default function Home() {
       <Slide images={images} />
       <div className="containerProducts">
         <BoxProducts category="Futebol" listProducts={listProductByCategeory.futebol}/>
+        <BoxProducts category="Vôlei" listProducts={listProductByCategeory.volei}/>
+        <BoxProducts category="Basquete" listProducts={listProductByCategeory.basquete}/>
+        <BoxProducts category="Natação" listProducts={listProductByCategeory.natacao}/>
       </div>
     </HomeStyled>
   );
