@@ -1,3 +1,16 @@
+import {
+  Button,
+  CardHeading,
+  CardUsuario,
+  Heading,
+  Input,
+  Label,
+  LeftLogin,
+  MainLogin,
+  RightLogin,
+  Textfield,
+} from "./Styles";
+
 const Contact = () => {
   return (
     <MainLogin>
@@ -5,7 +18,7 @@ const Contact = () => {
         <Heading>
           Faça login <br />E jogue nosso quiz
         </Heading>
-        <Image src="assets/img/vehicle-sale-animate.svg" alt="Animação" />
+        <img src="" alt="Animação" />
       </LeftLogin>
       <RightLogin>
         <CardUsuario>
@@ -28,7 +41,7 @@ const Contact = () => {
               id="senha"
             />
           </Textfield>
-          <Button onClick={validar}>Login</Button>
+          <Button onClick={""}>Login</Button>
         </CardUsuario>
       </RightLogin>
     </MainLogin>

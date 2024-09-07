@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-const MainLogin = styled.div`
+
+export const MainLogin = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: rgb(37, 37, 37);
@@ -9,7 +10,7 @@ const MainLogin = styled.div`
   justify-content: center;
 `;
 
-const LeftLogin = styled.div`
+export const LeftLogin = styled.div`
   background-color: antiquewhite;
   width: 50vw;
   height: 100vh;
@@ -19,16 +20,16 @@ const LeftLogin = styled.div`
   flex-direction: column;
 `;
 
-const Heading = styled.h1`
+export const Heading = styled.h1`
   font-size: 3vw;
   color: rgb(0, 126, 165);
 `;
 
-const Image = styled.img`
-  width: 35vw;
-`;
+// export const Image = styled.img`
+//   width: 35vw;
+// `;
 
-const RightLogin = styled.div`
+export const RightLogin = styled.div`
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -37,7 +38,7 @@ const RightLogin = styled.div`
   flex-direction: column;
 `;
 
-const CardUsuario = styled.div`
+export const CardUsuario = styled.div`
   width: 60%;
   background: #303030;
   display: flex;
@@ -49,7 +50,7 @@ const CardUsuario = styled.div`
   box-shadow: 0px 10px 40px #00000056;
 `;
 
-const CardHeading = styled.h2`
+export const CardHeading = styled.h2`
   color: rgb(0, 126, 165);
   font-weight: bold;
   margin: 0;
@@ -58,7 +59,7 @@ const CardHeading = styled.h2`
   text-transform: uppercase;
 `;
 
-const Textfield = styled.div`
+export const Textfield = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -67,12 +68,12 @@ const Textfield = styled.div`
   margin: 10px 0px;
 `;
 
-const Label = styled.label`
+export const Label = styled.label`
   color: rgb(218, 218, 218);
   margin-bottom: 10px;
 `;
 
-const Input = styled.input`
+export const Input = styled.input`
   width: 100%;
   border: none;
   border-radius: 10px;
@@ -88,7 +89,7 @@ const Input = styled.input`
   }
 `;
 
-const Button = styled.button`
+export const Button = styled.button`
   width: 100%;
   padding: 16px 0px;
   border: none;
