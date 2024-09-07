@@ -8,6 +8,11 @@ export const MainContact = styled.section`
   width: 100vw;
   min-height: 100%; /* Definindo a altura mínima para 100% do container */
   background-color: rgb(37, 37, 37);
+
+  @media(max-width: 860px){
+    height: auto;
+    padding: 32px 0px;
+  }
 `;
 
 export const LeftContact = styled.div`
@@ -22,6 +27,10 @@ export const LeftContact = styled.div`
 
   img{
     height: 40vh;
+  }
+
+  @media(max-width: 860px){
+    display: none;
   }
 `;
 
