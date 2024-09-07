@@ -18,7 +18,7 @@ A combinação dessas tecnologias permite ao SportySide oferecer uma interface i
 ## Desenvolvedores
 | Desenvolvedor | Avatar | RM |
 | ------------- | ------ | -- |
-| ![](https://img.shields.io/badge/DESENVOLVEDOR-Cezar-blue?style=for-the-badge&logo=appveyor) | <a href="https://github.com/CezarBacanieski"><img src="https://avatars.githubusercontent.com/u/146896790?v=4" height="50" style="max-width: 100%;"></a> | RM557531 |
+| ![](https://img.shields.io/badge/DESENVOLVEDOR-Cezar-blue?style=for-the-badge&logo=appveyor) | <a href="https://github.com/CezarBacanieski"><img src="https://avatars.githubusercontent.com/u/146896790?v=4" height="50" style="max-width: 100%;"></a> | RM555206 |
 | ![](https://img.shields.io/badge/DESENVOLVEDOR-Lorenzo-blue?style=for-the-badge&logo=appveyor) | <a href="https://github.com/LorenzoMangini"><img src="https://avatars.githubusercontent.com/u/163363537?v=4" height="50" style="max-width: 100%;"></a> | RM554901 |
 | ![](https://img.shields.io/badge/DESENVOLVEDOR-Luiz-blue?style=for-the-badge&logo=appveyor) | <a href="https://github.com/luyz-gusta"><img src="https://avatars.githubusercontent.com/u/110852235?v=4" height="50" style="max-width: 100%;"></a> | RM558358 |
 | ![](https://img.shields.io/badge/DESENVOLVEDOR-Vitor-blue?style=for-the-badge&logo=appveyor) | <a href="https://github.com/vitorbmulford"><img src="https://avatars.githubusercontent.com/u/142764430?v=4" height="50" style="max-width: 100%;"></a> | RM555026 |
